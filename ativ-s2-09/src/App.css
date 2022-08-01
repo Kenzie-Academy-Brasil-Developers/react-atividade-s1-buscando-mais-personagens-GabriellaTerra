@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.previousBnt {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 5px solid greenyellow;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.previousBnt:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.nextBnt {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 5px solid greenyellow;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.nextBnt:hover {
+  background-color: greenyellow;
+  color: black;
+}
